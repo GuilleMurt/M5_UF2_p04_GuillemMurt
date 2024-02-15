@@ -6,7 +6,7 @@
  */
 function suma(...valors) {
   let number = 0;
-  for (let valor of numbers) {
+  for (let valor of valors) {
     number += valor;
   }
   return number;
@@ -21,7 +21,7 @@ function suma(...valors) {
  */
 function multiplica(...valors) {
   let number = 1;
-  for (let valor of numbers) {
+  for (let valor of valors) {
     number *= valor;
   }
   return number;
